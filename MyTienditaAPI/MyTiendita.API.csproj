@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.15" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.15">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Classes\" />
+    <Folder Include="Middlewares\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MyTiendita.Data.Repositories\MyTiendita.Data.Repositories.csproj" />
+    <ProjectReference Include="..\MyTiendita.Data.RepositoryImplementation\MyTiendita.Data.RepositoryImplementation.csproj" />
+    <ProjectReference Include="..\MyTiendita.Domain\MyTiendita.Domain.csproj" />
+    <ProjectReference Include="..\MyTiendita.Persistence.Database\MyTiendita.Persistence.Database.csproj" />
+    <ProjectReference Include="..\MyTiendita.Services.BLL\MyTiendita.Services.BLL.csproj" />
+    <ProjectReference Include="..\MyTiendita.Shared.DTOs\MyTiendita.Shared.DTOs.csproj" />
+  </ItemGroup>
+
+</Project>

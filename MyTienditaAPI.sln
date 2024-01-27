@@ -1,0 +1,81 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyTiendita.API", "MyTienditaAPI\MyTiendita.API.csproj", "{AF5FC7E4-C98D-4FE8-A8C0-4058744B4C48}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{45C8305C-39B4-4BCE-B42B-DF613DA2C730}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{C54A805F-7EB9-42ED-8B79-710B9639C889}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Persistence", "Persistence", "{064E60AE-499F-4094-919C-7A82417FD602}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyTiendita.Services.BLL", "MyTiendita.Services.BLL\MyTiendita.Services.BLL.csproj", "{625A0423-9E2D-4474-AEE6-4D6A478EC397}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyTiendita.Persistence.Database", "MyTiendita.Persistence.Database\MyTiendita.Persistence.Database.csproj", "{14ABFBC0-C165-443A-8B13-2CBBB2E74947}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyTiendita.Domain", "MyTiendita.Domain\MyTiendita.Domain.csproj", "{9B5BE2CD-A658-4F7B-AC97-F921D9CF77FA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{27F3EE23-FDE0-470F-8A8E-525813314E56}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyTiendita.Shared.DTOs", "MyTiendita.Shared.DTOs\MyTiendita.Shared.DTOs.csproj", "{BFEF5719-9180-4FFA-A982-24F035314268}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{993F9E37-D600-4791-AB3D-61FA8CCF6F52}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyTiendita.Data.Repositories", "MyTiendita.Data.Repositories\MyTiendita.Data.Repositories.csproj", "{470BB370-88C1-4C41-BBC4-6C08F103B0A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyTiendita.Data.RepositoryImplementation", "MyTiendita.Data.RepositoryImplementation\MyTiendita.Data.RepositoryImplementation.csproj", "{F5B7ABAC-3672-4A20-ACCD-F7EB69757255}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AF5FC7E4-C98D-4FE8-A8C0-4058744B4C48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF5FC7E4-C98D-4FE8-A8C0-4058744B4C48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF5FC7E4-C98D-4FE8-A8C0-4058744B4C48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF5FC7E4-C98D-4FE8-A8C0-4058744B4C48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{625A0423-9E2D-4474-AEE6-4D6A478EC397}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{625A0423-9E2D-4474-AEE6-4D6A478EC397}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{625A0423-9E2D-4474-AEE6-4D6A478EC397}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{625A0423-9E2D-4474-AEE6-4D6A478EC397}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14ABFBC0-C165-443A-8B13-2CBBB2E74947}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14ABFBC0-C165-443A-8B13-2CBBB2E74947}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14ABFBC0-C165-443A-8B13-2CBBB2E74947}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14ABFBC0-C165-443A-8B13-2CBBB2E74947}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B5BE2CD-A658-4F7B-AC97-F921D9CF77FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B5BE2CD-A658-4F7B-AC97-F921D9CF77FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B5BE2CD-A658-4F7B-AC97-F921D9CF77FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B5BE2CD-A658-4F7B-AC97-F921D9CF77FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFEF5719-9180-4FFA-A982-24F035314268}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFEF5719-9180-4FFA-A982-24F035314268}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFEF5719-9180-4FFA-A982-24F035314268}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFEF5719-9180-4FFA-A982-24F035314268}.Release|Any CPU.Build.0 = Release|Any CPU
+		{470BB370-88C1-4C41-BBC4-6C08F103B0A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{470BB370-88C1-4C41-BBC4-6C08F103B0A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{470BB370-88C1-4C41-BBC4-6C08F103B0A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{470BB370-88C1-4C41-BBC4-6C08F103B0A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5B7ABAC-3672-4A20-ACCD-F7EB69757255}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5B7ABAC-3672-4A20-ACCD-F7EB69757255}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5B7ABAC-3672-4A20-ACCD-F7EB69757255}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5B7ABAC-3672-4A20-ACCD-F7EB69757255}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AF5FC7E4-C98D-4FE8-A8C0-4058744B4C48} = {45C8305C-39B4-4BCE-B42B-DF613DA2C730}
+		{625A0423-9E2D-4474-AEE6-4D6A478EC397} = {45C8305C-39B4-4BCE-B42B-DF613DA2C730}
+		{14ABFBC0-C165-443A-8B13-2CBBB2E74947} = {064E60AE-499F-4094-919C-7A82417FD602}
+		{9B5BE2CD-A658-4F7B-AC97-F921D9CF77FA} = {C54A805F-7EB9-42ED-8B79-710B9639C889}
+		{BFEF5719-9180-4FFA-A982-24F035314268} = {27F3EE23-FDE0-470F-8A8E-525813314E56}
+		{993F9E37-D600-4791-AB3D-61FA8CCF6F52} = {C54A805F-7EB9-42ED-8B79-710B9639C889}
+		{470BB370-88C1-4C41-BBC4-6C08F103B0A0} = {993F9E37-D600-4791-AB3D-61FA8CCF6F52}
+		{F5B7ABAC-3672-4A20-ACCD-F7EB69757255} = {993F9E37-D600-4791-AB3D-61FA8CCF6F52}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {61C20815-0AF6-46B9-978B-BAE667EC1E31}
+	EndGlobalSection
+EndGlobal

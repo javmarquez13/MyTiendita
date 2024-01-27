@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MyTiendita.Persistence.Database\MyTiendita.Persistence.Database.csproj" />
+    <ProjectReference Include="..\MyTiendita.Services.BLL\MyTiendita.Services.BLL.csproj" />
+    <ProjectReference Include="..\MyTiendita.Shared.DTOs\MyTiendita.Shared.DTOs.csproj" />
+  </ItemGroup>
+
+</Project>
