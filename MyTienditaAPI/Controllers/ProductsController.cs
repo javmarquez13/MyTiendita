@@ -63,6 +63,7 @@ public class ProductsController : ControllerBase
         catch (InvalidOperationException e)
         {
             return this.BadRequest(e.Message);
+
         }
         catch (Exception e)
         {
