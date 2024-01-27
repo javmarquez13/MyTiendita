@@ -23,6 +23,7 @@ public class ProductBLL
         if (barcode is not null) query = query.Where(x => x.Barcode == barcode);
         if (description is not null) query = query.Where(x => x.Description == description);
 
+
         return await query.ToListAsync();
     }
 
